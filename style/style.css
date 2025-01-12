@@ -5,10 +5,13 @@
       font-optical-sizing: auto;
       font-style: normal;
       font-variation-settings:
-        "wdth" 100;
+        "width" 100;
 }
 /* share style */
 
+.secondary-bg{
+background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -24,6 +27,14 @@
     padding: 18px 35px;
     border-radius: 5px;
     cursor: pointer;
+}
+.section-tittle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -47,7 +58,7 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin: 51px;
+    margin: 50px;
 }
 nav ul li a{
     text-decoration: none;
@@ -70,12 +81,80 @@ nav ul li a{
 .banner-tittle{
     font-size: 85px;
     font-weight: bold;
+    color: #757575;
 }
 .banner-description{
-    font-size:18px;
-    color: #474747;
+    font-size:15px;
+    color:#474747;
 }
 .banner-profile-picture{
     display: flex;
-   width: 580px;
+   width: 400px;
+   height: 600px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* about */
+.about{
+    border-radius: 10px;
+padding: 50px 50px;
+text-align: center;
+margin-top: 70px;
+}
+.about-items{
+    display: flex;
+ justify-content: space-around;
+ color:#757575;
+ font-weight: regular;
+
+}
+.item-description{
+    font-size: 15px;
+    font-weight: bold;
+    color: #757575;
+
+}
+.ittem-tittle{
+    font-size: 35px;
+    font-weight: semibold;
+}
+/* what i do  */
+.section-tittle{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    text-align: center;
+    font-size: 15px;
+    color: #757575;
+    font-weight: regular;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.skill-item{
+    gap: 24px;
+    padding:40px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    
+}
+.skill{
+
+    border-radius: 5px;
+    padding: 40px;
+}
+.skill-description-ds{
+    font-size: 15px;
+    color: #757575;
+    font-weight: regular;
+    padding-block: 20px;
 }
